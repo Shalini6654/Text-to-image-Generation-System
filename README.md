@@ -5,26 +5,26 @@ The project focuses on clarity and correctness — nothing extra, no UI, no fanc
 
 🚀 Features
 
-Generates images directly from text prompts
-Uses SDXL, one of the strongest publicly available diffusion models
-Simple Python script — easy to read and modify
-Supports GPU acceleration (CUDA)
-Zero unnecessary files or bloat
+  1. Generates images directly from text prompts
+  2. Uses SDXL, one of the strongest publicly available diffusion models
+  3. Simple Python script — easy to read and modify
+  4. Supports GPU acceleration (CUDA)
+  5. Zero unnecessary files or bloat
 
 📂 Project Structure
-Text-to-Image-Generation-System/
-│
-├── text_to_image.ipynb       # Main script that loads SDXL and generates images
-├── README.md              # Documentation
-└── .gitignore             # Keeps repo clean
+  Text-to-Image-Generation-System/
+   │
+   ├── text_to_image.ipynb       # Main script that loads SDXL and generates images
+   ├── README.md              # Documentation
+   └── .gitignore             # Keeps repo clean
 
 📦 Installation
 1. Clone the repo
-git clone https://github.com/Shalini6654/Text-to-Image-Generation-System.git
-cd Text-to-Image-Generation-System
+   git clone https://github.com/Shalini6654/Text-to-Image-Generation-System.git
+   cd Text-to-Image-Generation-System
 
 2. Install dependencies
-pip install torch diffusers transformers accelerate
+    pip install torch diffusers transformers accelerate
 
 
 If using CUDA, install the CUDA version of PyTorch:
@@ -32,14 +32,14 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 
 🧠 How It Works (Short + Accurate)
 
-Script loads pre-trained SDXL model.
-Takes a text prompt.
-Diffusion process converts noise → image.
-Saves the final output.
-No fine-tuning.
-No UI.
-No extra steps.
-Just a clean pipeline execution.
+    Script loads pre-trained SDXL model.
+    Takes a text prompt.
+    Diffusion process converts noise → image.
+    Saves the final output.
+    No fine-tuning.
+    No UI.
+    No extra steps.
+J   just a clean pipeline execution.
 
 📌 Requirements
 
