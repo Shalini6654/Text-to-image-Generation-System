@@ -13,10 +13,10 @@ The project focuses on clarity and correctness — nothing extra, no UI, no fanc
 
 📂 Project Structure
   Text-to-Image-Generation-System/
-   │
-   ├── text_to_image.ipynb       # Main script that loads SDXL and generates images
-   ├── README.md              # Documentation
-   └── .gitignore             # Keeps repo clean
+     │
+     ├── text_to_image.ipynb       # Main script that loads SDXL and generates images
+     ├── README.md              # Documentation
+     └── .gitignore             # Keeps repo clean
 
 📦 Installation
 1. Clone the repo
@@ -32,37 +32,37 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 
 🧠 How It Works (Short + Accurate)
 
-    Script loads pre-trained SDXL model.
-    Takes a text prompt.
-    Diffusion process converts noise → image.
-    Saves the final output.
-    No fine-tuning.
-    No UI.
-    No extra steps.
-J   just a clean pipeline execution.
+  Script loads pre-trained SDXL model.
+  Takes a text prompt.
+  Diffusion process converts noise → image.
+  Saves the final output.
+  No fine-tuning.
+  No UI.
+  No extra steps.
+  just a clean pipeline execution.
 
 📌 Requirements
 
-Python 3.9+
-PyTorch
-Diffusers
-Transformers
-Accelerate
-GPU recommended (but CPU will work, very slow)
+   Python 3.9+
+   PyTorch
+   Diffusers
+   Transformers
+   Accelerate
+   GPU recommended (but CPU will work, very slow)
 
 🎯 Use Cases
 
-This project is suitable for:
-Students learning basics of diffusion models
-People testing SDXL without using heavy tools
-Demonstrating GenAI fundamentals in simple form
-Extending later into fine-tuning or prompt-based experiments
+  This project is suitable for:
+  Students learning basics of diffusion models
+  People testing SDXL without using heavy tools
+  Demonstrating GenAI fundamentals in simple form
+  Extending later into fine-tuning or prompt-based experiments
 
 🤝 Contributions
 
 If someone wants to improve:
-Better prompt templates
-Add more parameters
-Support for multiple outputs
-Cleanup / optimization
-They can open a PR.
+   Better prompt templates
+   Add more parameters
+   Support for multiple outputs
+   Cleanup / optimization
+   They can open a PR.
